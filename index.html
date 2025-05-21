@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <script src="https://kit.fontawesome.com/a15c3a4aa6.js" crossorigin="anonymous"></script>
+  <title>portfolio</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="header-menu">
+        <div class="header-left">
+          <h1>Akari</h1>
+          <h2>Portfolio Site</h2>
+        </div>
+
+        <div class="header-right">
+          <a href="https://mobile.twitter.com/punio_04" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a>
+          <a href="https://www.instagram.com/punio_04/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+        </div>
+
+      </div>
+
+      <div class="nav">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <div class="top-wrapper">
+    <img class="pc" src="images/incollage_save.jpg" alt="パソコン用の画像">
+    <img class="sp" src="images/IMG_1893 2.JPG" alt="スマートフォン用の画像">
+  </div>
+
+  <div class="about-wrapper">
+    <div class="container">
+      <h1 class="main-logo" id="about">About</h1>
+      <div class="contents">
+        <div class="myphoto">
+          <img src="images/IMG_1917.JPG">
+        </div>
+        <div class="about-text">
+          <p class="name">Akari</p>
+          <p><i class="fab fa-twitter-square fa-1.5x"></i>Twitter:
+            <a href="https://mobile.twitter.com/punio_04">@punio_04</a><br />
+            <i class="fab fa-instagram fa-1.5x"></i>Instagram:
+            <a href="https://www.instagram.com/punio_04/">@punio_04</a><br />
+          </p>
+
+          <p class="maintext">
+            高校を卒業し、プログラミングに興味を持ち始めフリーターと両立しながら2020年7月よりWeb制作を独学で学び始めました。今まではやらなければならない事をただなんとなくやっていただけだったけれど、初めて自分で行動し、やりたいと思えるものに出会えました。”作るもの”を通して皆様に喜んでもらうこと、お役に立てる事を目指しております。
+            自由な生活に憧れて、理想の生き方を現実するために日々挑戦している24歳です。趣味は食と旅行です。色々な場所を旅しながら好きな事をしてパソコン1台で仕事をするのが夢です。<br>
+            埼玉県出身、神奈川在住。</p>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="skill-wrapper">
+    <div class="container">
+      <h1 class="main-logo" id="skills">Skills</h1>
+
+      <div class="contents">
+
+        <div class="skill-content">
+          <h1>ヒアリング</h1>
+          <p class="sub">HEARING</p>
+          <i class="fas fa-pencil-alt fa-5x"></i>
+          <div class="skill-text">
+            <p>
+              お客様のデザイン・文章などのご要望を丁寧にヒアリングし、問題点を洗い出し、効果的、機能的に優れたWebサイト作りを目指します。制作ではデザインに入る前の事前準備が重要になるのでコミュニュケーションを重視し迅速に、そして柔軟な対応を心がけて、満足度の高いWebサイトを作っていきます。
+            </p>
+          </div>
+        </div>
+
+        <div class="skill-content">
+          <h1>コーティング</h1>
+          <p class="sub">CODING</p>
+          <i class="far fa-keyboard fa-5x"></i>
+          <div class="skill-text">
+            <p>Type HTML /
+              CSSをベースに、Webサイトを作成します。ヒアリングを基づいたプランに沿って、デザインの意図を的確に汲みとり、シンプルで使いやすいWebサイトを忠実にコーディングいたします。またPCサイトだけではなく、スマートフォンサイトなど、ご希望のデバイスに合わせたレスポンシブデザインも可能です。
+            </p>
+          </div>
+        </div>
+
+        <div class="skill-content">
+          <h1>メンテナンス</h1>
+          <p class="sub">MAINTENANCE</p>
+          <i class="fas fa-cog fa-5x"></i>
+          <div class="skill-text">
+            <p>サイトを作成した後も、修正・更新なども適宜ご対応しますので、安心してご相談ください。</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="works-wrapper">
+    <div class="container">
+      <h1 class="main-logo" id="works">Works</h1>
+      <p>過去の制作物の一部をご紹介します。</p>
+
+      <!-- フィルターボタン -->
+      <div class="filter-buttons">
+        <button class="active" data-filter="all">すべて</button>
+        <button data-filter="lp">LP</button>
+        <button data-filter="wordpress">WordPress</button>
+        <button data-filter="studio">STUDIO</button>
+      </div>
+
+      <!-- 実績ギャラリー -->
+      <div class="work-gallery">
+        <div class="work-card show" data-cat="studio">
+          <a href="https://lp.luup.sc/letter" target="_blank">
+            <img src="images/photo10.jpg">
+            <div class="caption">LUUP LP／構成＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="wordpress">
+          <a href="https://katasho.jp/" target="_blank">
+            <img src="images/photo30.jpg">
+            <div class="caption">遊んで泊まれる小学校 カタショー WordPress／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="wordpress">
+          <a href="https://nextinfinito.co.jp/office/" target="_blank">
+            <img src="images/photo38.jpg">
+            <div class="caption">ネクストインフィニート WordPress／コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://web-labo.sub.jp/mc-keiaikai.com/liplift/" target="_blank">
+            <img src="images/photo17.jpg">
+            <div class="caption">敬愛会グループ LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://www.mc-keiaikai.com/lp/xerf/" target="_blank">
+            <img src="images/photo45.jpg">
+            <div class="caption">敬愛会グループ LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://punio04.github.io/nightlase-test4/" target="_blank">
+            <img src="images/photo46.jpg">
+            <div class="caption">敬愛会グループ LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://punio04.github.io/first/" target="_blank">
+            <img src="images/photo47.jpg">
+            <div class="caption">敬愛会グループ LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://www.mc-keiaikai.com/lp/dualpeel/" target="_blank">
+            <img src="images/photo48.jpg">
+            <div class="caption">敬愛会グループ LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://punio04.github.io/ganken/" target="_blank">
+            <img src="images/photo49.jpg">
+            <div class="caption">敬愛会グループ LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://mizuhoclinic.jp/lp/diet7/" target="_blank">
+            <img src="images/photo51.jpg">
+            <div class="caption">みずほクリニック LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://mizuhoclinic.jp/lp/ear/" target="_blank">
+            <img src="images/photo50.jpg">
+            <div class="caption">みずほクリニック LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://byakuray.jp/" target="_blank">
+            <img src="images/photo16.jpg">
+            <div class="caption">Byakuray LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="wordpress">
+          <a href="https://leap-beauty.com/meta_itorifuto/" target="_blank">
+            <img src="images/photo33.jpg">
+            <div class="caption">leap-beauty LP／コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="wordpress">
+          <a href="https://leap-beauty.com/0223-2/" target="_blank">
+            <img src="images/photo63.jpg">
+            <div class="caption">leap-beauty LP／コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://santedasuke.com/jimlp_sante/" target="_blank">
+            <img src="images/photo19.jpg">
+            <div class="caption">SANTE LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://ile-healthcare.com/lp4/" target="_blank">
+            <img src="images/photo42.jpg">
+            <div class="caption">healthcare studio ile LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="studio">
+          <a href="https://crele.co.jp/senchalle" target="_blank">
+            <img src="images/photo39.jpg">
+            <div class="caption">センチャレ LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="wordpress">
+          <a href="https://funcars.shop/lp1/" target="_blank">
+            <img src="images/photo37.jpg">
+            <div class="caption">funcars LP／コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="wordpress">
+          <a href="https://www.flat-tail.co.jp/lp/20241210-2/" target="_blank">
+            <img src="images/photo31.jpg">
+            <div class="caption">flat-tail LP／コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://min-tr.com/meta/" target="_blank">
+            <img src="images/photo52.jpg">
+            <div class="caption">みんなDE体幹トレーニング LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="http://sumai-check.com/contact/" target="_blank">
+            <img src="images/photo32.jpg">
+            <div class="caption">sumai-check LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://natsume-0519.com/recruit/" target="_blank">
+            <img src="images/photo34.jpg">
+            <div class="caption">なつめ整体院 LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://reform-park.jp/googlekoukoku/ippan/lp2" target="_blank">
+            <img src="images/photo35.jpg">
+            <div class="caption">リフォームパーク LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://reform-park.jp/kitchen/" target="_blank">
+            <img src="images/photo18.jpg">
+            <div class="caption">リフォームパーク LP／コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://reform-park.jp/googlekoukoku/line/lp/" target="_blank">
+            <img src="images/photo26.jpg">
+            <div class="caption">リフォームパーク LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="wordpress">
+          <a href="https://good-order.com/buying.html" target="_blank">
+            <img src="images/photo36.jpg">
+            <div class="caption">ジュエリー アグリア WordPress／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="wordpress">
+          <a href="https://cab-project.jp/creator-recruit/" target="_blank">
+            <img src="images/photo40.jpg">
+            <div class="caption">CREATOR WORKS LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="studio">
+          <a href="https://kidomks.wixstudio.com/test2" target="_blank">
+            <img src="images/photo41.jpg">
+            <div class="caption">Hallfield Sdn Bhd LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="wordpress">
+          <a href="https://pons.co.jp/other/" target="_blank">
+            <img src="images/photo43.jpg">
+            <div class="caption">pons LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="wordpress">
+          <a href="https://pons.co.jp/" target="_blank">
+            <img src="images/photo44.jpg">
+            <div class="caption">pons TOP／コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://yokohama-yobikou.jp/yobikou/" target="_blank">
+            <img src="images/photo20.jpg">
+            <div class="caption">横浜予備校 LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://punio04.github.io/hormoneLP/" target="_blank">
+            <img src="images/photo55.jpg">
+            <div class="caption">恵比寿TGクリニック LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+
+        <div class="work-card show" data-cat="wordpress">
+          <a href="https://adgate.co.jp/" target="_blank">
+            <img src="images/photo53.jpg">
+            <div class="caption">AdGate TOP／コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="wordpress">
+          <a href="https://www.shc-s.jp/keypit/wp/" target="_blank">
+            <img src="images/photo12.jpg">
+            <div class="caption">keypit LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="wordpress">
+          <a href="https://k-asbestos-research.com/" target="_blank">
+            <img src="images/photo54.jpg">
+            <div class="caption">関西アスベスト分析調査 TOP／コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="studio">
+          <a href="https://speakers-web.majisemi.com/trendseminar" target="_blank">
+            <img src="images/photo21.jpg">
+            <div class="caption">マジセミ LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="studio">
+          <a href="https://preview.studio.site/live/YPqrELA8O5/3" target="_blank">
+            <img src="images/photo22.jpg">
+            <div class="caption">ライジングブル投資顧問株式会社 LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://adgate.co.jp/lp_individual/" target="_blank">
+            <img src="images/photo29.jpg">
+            <div class="caption">アドゲート株式会社 LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://thecode.co.jp/web/brandrepairseminar/" target="_blank">
+            <img src="images/photo64.jpg">
+            <div class="caption">thecode LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://eqtmarketing.site/" target="_blank">
+            <img src="images/photo56.jpg">
+            <div class="caption">量子最適化 LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="wordpress">
+          <a href="https://adgate.co.jp/listing/tokuten/" target="_blank">
+            <img src="images/photo57.jpg">
+            <div class="caption">AdGate LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="wordpress">
+          <a href="https://adgate.co.jp/seminar/listing/auto/" target="_blank">
+            <img src="images/photo58.jpg">
+            <div class="caption">AdGate LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://punio04.github.io/test-site/" target="_blank">
+            <img src="images/photo59.jpg">
+            <div class="caption">わかりみムービー LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://punio04.github.io/aga_testlp/" target="_blank">
+            <img src="images/photo28.jpg">
+            <div class="caption">AGAクリニックBESTS LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://punio04.github.io/agalp/" target="_blank">
+            <img src="images/photo24.jpg">
+            <div class="caption">漫画でわかるAGA治療 LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://punio04.github.io/warikirilp/" target="_blank">
+            <img src="images/photo60.jpg">
+            <div class="caption">出会い系の虎 LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="wordpress">
+          <a href="https://matchingapp.myshopify.com/blogs/news/deai-app-ranking" target="_blank">
+            <img src="images/photo61.jpg">
+            <div class="caption">マッチングEC LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="wordpress">
+          <a href="https://matchingapp.myshopify.com/blogs/news/papakatsu-app-ranking" target="_blank">
+            <img src="images/photo62.jpg">
+            <div class="caption">マッチングEC LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="wordpress">
+          <a href="https://punio04.github.io/ponychat/" target="_blank">
+            <img src="images/photo11.jpg">
+            <div class="caption">ponychat LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="studio">
+          <a href="https://preview.studio.site/live/xmaZ6AgAaR" target="_blank">
+            <img src="images/photo09.jpg">
+            <div class="caption">HAKU LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://punio04.github.io/aitest/" target="_blank">
+            <img src="images/photo27.jpg">
+            <div class="caption">AIハイスクール LP／デザイン＋コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://punio04.github.io/book/" target="_blank">
+            <img src="images/photo15.jpg">
+            <div class="caption">book デザイン</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://punio04.github.io/wedding/" target="_blank">
+            <img src="images/photo13.jpg">
+            <div class="caption">wedding デザイン</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://punio04.github.io/cake/" target="_blank">
+            <img src="images/photo14.jpg">
+            <div class="caption">cake デザイン</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://punio04.github.io/punio_04.portforiosite/isara/" target="_blank">
+            <img src="images/photo05.png">
+            <div class="caption">isara LP／コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://punio04.github.io/punio_04.portforiosite/GoFullPage/" target="_blank">
+            <img src="images/photo02.png">
+            <div class="caption">GoFullPage LP／コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://punio04.github.io/punio_04.portforiosite/fashion/" target="_blank">
+            <img src="images/photo01.png">
+            <div class="caption">fashion LP／コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://punio04.github.io/punio_04.portforiosite/practice/" target="_blank">
+            <img src="images/photo06.png">
+            <div class="caption">practice LP／コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://punio04.github.io/punio_04.portforiosite/yoursite/" target="_blank">
+            <img src="images/photo03.png">
+            <div class="caption">yoursite LP／コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://punio04.github.io/punio_04.portforiosite/page18/" target="_blank">
+            <img src="images/photo04.png">
+            <div class="caption">progate LP／コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://punio04.github.io/sample_company/" target="_blank">
+            <img src="images/photo07.png">
+            <div class="caption">テンプレート LP／コーディング</div>
+          </a>
+        </div>
+        <div class="work-card show" data-cat="lp">
+          <a href="https://punio04.github.io/punio_04.portforiosite/page23" target="_blank">
+            <img src="images/photo08.png">
+            <div class="caption">progate LP／コーディング</div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-wrapper">
+    <div class="container">
+      <h1 class="main-logo" id="contact">Contact</h1>
+      <p>お問い合わせは各種SNSよりお願いします。</p>
+
+      <div class="contact-menu">
+        <a href="https://mobile.twitter.com/punio_04" target="_blank"><i class="fab fa-twitter-square fa-5x"></i></a>
+        <a href="https://www.instagram.com/punio_04/ target="_blank""><i class="fab fa-instagram fa-5x"></i></a>
+      </div>
+    </div>
+    <p class="totop">
+      <a href="#">
+        <img src="images/icon_totop.gif" alt width="22" height="14">
+      </a>
+    </p>
+  </div>
+
+  <footer>
+    <div class="nav">
+      <ul class="nav-list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <small>&copy;2025 akari,puni</small>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    const buttons = document.querySelectorAll(".filter-buttons button");
+    const cards = document.querySelectorAll(".work-card");
+
+    function filterCards(category) {
+      cards.forEach(card => {
+        if (category === "all" || card.dataset.cat === category) {
+          card.classList.add("show");
+        } else {
+          card.classList.remove("show");
+        }
+      });
+    }
+
+    buttons.forEach(button => {
+      button.addEventListener("click", () => {
+        buttons.forEach(btn => btn.classList.remove("active"));
+        button.classList.add("active");
+        filterCards(button.dataset.filter);
+      });
+    });
+  </script>
+</body>
+
+</html>
