@@ -450,6 +450,10 @@ body {
   display: block;
 }
 
+button {
+  color: #333;
+}
+
 @media(max-width:759px) {
   .filter-buttons {
     text-align: center;
